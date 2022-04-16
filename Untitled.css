@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=AmstelvarAlpha-VF');
+
+d* {
+    outline: 1px dotted lime;
+}
+
+title{
+    font-size 2.0em;
+}
+
+
+body {
+    background-color: #F2F2F2;
+    margin: 0;
+    font-family: 'AmstelvarAlpha-VF', sans-serif;
+    font-size: 1.2em;
+    border-left-color: #995FA3;
+}
+
+.header {
+    background-color: #2D2F3B;
+    color: white;
+    height: 90px;
+    border-bottom: 6px solid #4B4E61;
+    
+}
+
+.nav {
+    display: grid;
+    grid-template-columns: 200px auto;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 950px;
+    
+}
+
+.links {
+    margin-top: 40px;
+    font-size: 0.75rem;
+    text-align: right;
+    color: black;
+}
+
+.links a {
+    color: rebeccapurple;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+}
+
+
+.banner {
+    background-color: #F16C65;
+    padding: 20px 0;
+    text-align: center;
+}
+.banner img {
+    max-width: 780px;
+    width: 90%;
+}
+
+#home {background-color: #c6eddc;
+    text-align: start;
+padding-left:80px; 
+padding-right: 159px;
+    font-family: 'AmstelvarAlpha-VF', sans-serif;
+    font-weight: bold;
+}
+#home h1 {background-color: #9A98B5;
+    text-align: start;
+padding-left:50px; 
+    }
+
+#porfolio {background-color: #7f97c7;
+
+}
+#portfolio h1{
+      padding-right:160px; 
+    text-align: right;
+    font-size: 3.0em;
+    font-family: 'Crimson pro', serif;
+    background-color: #7260ab
+}
+
+#about{background-color: #c6eddc;
+    font-family: monospace;
+}
+
+#about h1{995fa3
+    text-align: center;
+background-color: #c6eddc
+}
+    
+#contact{
+    background-color: #c6eddc;
+  font-size: 0.8em;  
+    font-family: 'Crimson pro', serif;
+      font-weight: bold;
+}
+#contact h1{
+   background-color: #802392;995fa3
+}
+
+
+
+#footer {
+    color: aqua;
+    background-color: #2D303A;
+    font-size: 0.7em;
+    padding: 40px 20px;
+    padding-bottom: 50px;
+}
+
+#footer .centered {
+    display: grid;
+    grid-template-columns: 65% auto;
+    max-width: 950px;
+    margin: auto;
+}
+
+#footer .social {
+    margin-top: -10px;
+    text-align: right;
+}
